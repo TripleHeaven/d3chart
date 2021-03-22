@@ -2,7 +2,7 @@ import * as d3 from "d3";
 import React, { useRef, useEffect } from "react";
 import styles from "./style.css";
 /*
-1. current code to react     - синхрон
+1. current code to react     - синхрон !
 2. сделать чарт с ивентами    - ссинхрон
   - оторбажение
   - дизайн - время на rect
