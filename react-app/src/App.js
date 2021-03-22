@@ -1,25 +1,25 @@
-import React, { useEffect, useState } from 'react'
-import './App.css'
-import BarChart from './chartjs/barjs'
+import React, { useEffect, useState } from "react";
+import "./App.css";
+import BarChart from "./chartjs/barjs";
 
 const datas = [
   [10, 30, 40, 20],
   [10, 40, 30, 20, 50, 10, 15, 130, 1000],
   [60, 30, 40, 20, 30],
-]
-var i = 0
+];
+var i = 0;
 
 function App() {
-  const [data, setData] = useState([])
+  const [data, setData] = useState([]);
 
   useEffect(() => {
-    changeData()
-  }, [])
+    changeData();
+  }, []);
 
   const changeData = () => {
-    setData(datas[i++])
-    if (i === datas.length) i = 0
-  }
+    setData(datas[i++]);
+    if (i === datas.length) i = 0;
+  };
 
   return (
     <div className="App">
@@ -27,7 +27,7 @@ function App() {
       <button onClick={changeData}>Change Data</button>
       <BarChart width={600} height={400} data={data} />
     </div>
-  )
+  );
 }
 
-export default App
+export default App;
