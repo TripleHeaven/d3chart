@@ -1,0 +1,916 @@
+[
+  {
+    "event_type": "connection",
+    "from": 1616062262,
+    "duration": -1,
+    "events": [
+      {
+        "uuid": "142f555d-5916-4f29-970e-3e1fd5201afc",
+        "camera_name": "Test camera",
+        "event_type": "connection",
+        "detected_time": "2021-03-05T15:41:31+00:00",
+        "snapshot": null,
+        "camera_uuid": "3fe059af-a200-4825-bf2d-bb1d07c811f1",
+        "company_uuid": "8ee4ca89-2613-4caa-b2d2-4e8c14c81614"
+      },
+      {
+        "uuid": "b3878bf4-ee86-48e7-938a-82eb11631ea0",
+        "camera_name": "Эрик",
+        "event_type": "connection",
+        "detected_time": "2021-03-05T15:41:51+00:00",
+        "snapshot": null,
+        "camera_uuid": "919f5692-c9c0-48a5-bf1c-bd115cd28d21",
+        "company_uuid": "967c64cf-8041-4017-aedf-e66fd0c094e0"
+      },
+      {
+        "uuid": "23eae696-7768-4193-b688-3d7a243be13d",
+        "camera_name": "Лаборатория 2 камера",
+        "event_type": "connection",
+        "detected_time": "2021-03-05T15:42:25+00:00",
+        "snapshot": null,
+        "camera_uuid": "a54dfbc2-c697-4e5f-a5f8-597e8624ffd1",
+        "company_uuid": "19d63b72-3168-4c34-b7f4-e4b45be595b9"
+      },
+      {
+        "uuid": "bd17fb70-bf6d-4a59-8348-9650e188db7d",
+        "camera_name": "Test",
+        "event_type": "connection",
+        "detected_time": "2021-03-05T15:42:25+00:00",
+        "snapshot": null,
+        "camera_uuid": "a22d5e20-0a3a-4196-83f7-924172d1a7eb",
+        "company_uuid": "b2b02d00-296d-4f0d-a488-bb5c38ee8627"
+      },
+      {
+        "uuid": "f4d15444-36c3-4e2f-80bf-5d259bf9d6fb",
+        "camera_name": "Приют",
+        "event_type": "connection",
+        "detected_time": "2021-03-05T15:42:25+00:00",
+        "snapshot": null,
+        "camera_uuid": "23ebf465-3805-4fa5-b742-f27fb9753f12",
+        "company_uuid": "ca5ccf1f-3387-4e9c-b316-b8c35f248a47"
+      },
+      {
+        "uuid": "04dd5195-5110-4178-b560-b28ed969843a",
+        "camera_name": "Двор",
+        "event_type": "connection",
+        "detected_time": "2021-03-05T15:42:59+00:00",
+        "snapshot": null,
+        "camera_uuid": "99a5629e-ab31-42e3-95a3-92871a428432",
+        "company_uuid": "e9126eb4-7aac-431a-bdeb-c8268ec95649"
+      },
+      {
+        "uuid": "3df8dbd1-a470-4061-bed4-00d1c29971c4",
+        "camera_name": "Лаборатория 3 камера",
+        "event_type": "connection",
+        "detected_time": "2021-03-05T15:43:16+00:00",
+        "snapshot": null,
+        "camera_uuid": "abfdb334-7eba-4453-a5fe-20b83f33dec3",
+        "company_uuid": "19d63b72-3168-4c34-b7f4-e4b45be595b9"
+      },
+      {
+        "uuid": "5df03f84-4cf8-466f-a3cd-d3e73b6ff826",
+        "camera_name": null,
+        "event_type": "connection",
+        "detected_time": "2021-03-05T15:43:21+00:00",
+        "snapshot": null,
+        "camera_uuid": "53896bd8-5f64-4832-a6bf-6033bfd83692",
+        "company_uuid": "19d63b72-3168-4c34-b7f4-e4b45be595b9"
+      },
+      {
+        "uuid": "49978a02-8f3c-4137-9de0-9d1b8b4c0a13",
+        "camera_name": "123 test",
+        "event_type": "connection",
+        "detected_time": "2021-03-05T15:43:24+00:00",
+        "snapshot": null,
+        "camera_uuid": "5c1786cd-8dad-458b-993a-02472889a292",
+        "company_uuid": "bc1c6272-4b3e-443a-a216-7c3cc2e1fedd"
+      },
+      {
+        "uuid": "f2cce129-a51c-43aa-8a42-c5d7e51b4627",
+        "camera_name": "Тещин дом",
+        "event_type": "connection",
+        "detected_time": "2021-03-05T15:43:44+00:00",
+        "snapshot": null,
+        "camera_uuid": "0f679916-a239-43a5-8a17-a729fe6f7f08",
+        "company_uuid": "19d63b72-3168-4c34-b7f4-e4b45be595b9"
+      },
+      {
+        "uuid": "ffadacd6-93bf-4805-9bd9-828a9baf7911",
+        "camera_name": "Eric",
+        "event_type": "connection",
+        "detected_time": "2021-03-05T15:43:48+00:00",
+        "snapshot": null,
+        "camera_uuid": "14d06df7-16ab-42c7-b9c5-1aeaca31bf10",
+        "company_uuid": "967c64cf-8041-4017-aedf-e66fd0c094e0"
+      },
+      {
+        "uuid": "2d356b95-a9e2-42a2-84ae-1a5a09ad7db6",
+        "camera_name": "Гости",
+        "event_type": "connection",
+        "detected_time": "2021-03-05T15:44:08+00:00",
+        "snapshot": null,
+        "camera_uuid": "4a6d5dec-a9fb-47dd-85da-9a8f6e182b80",
+        "company_uuid": "19d63b72-3168-4c34-b7f4-e4b45be595b9"
+      },
+      {
+        "uuid": "aa8d049d-6059-4f43-8c08-dc6cdfae496e",
+        "camera_name": "suka",
+        "event_type": "connection",
+        "detected_time": "2021-03-05T15:45:02+00:00",
+        "snapshot": null,
+        "camera_uuid": "0799ff6e-9a66-4c95-8df2-bbc437e51973",
+        "company_uuid": "46556fa1-94bd-4e20-9c65-fb83cdf90ed5"
+      },
+      {
+        "uuid": "a0b56fca-9868-4318-a388-f95ccc27b8fd",
+        "camera_name": "Офис",
+        "event_type": "connection",
+        "detected_time": "2021-03-05T15:46:06+00:00",
+        "snapshot": null,
+        "camera_uuid": "fd317648-51cf-442d-9532-1972cf65c411",
+        "company_uuid": "48465e71-df4e-4164-9ee8-143dcfddad9c"
+      },
+      {
+        "uuid": "de5c9f12-4231-4db5-87bb-3b0502d4a8ea",
+        "camera_name": "123",
+        "event_type": "connection",
+        "detected_time": "2021-03-05T15:46:27+00:00",
+        "snapshot": null,
+        "camera_uuid": "c2345d6a-4d3a-4711-b6f1-a58cef3f2f28",
+        "company_uuid": "967c64cf-8041-4017-aedf-e66fd0c094e0"
+      },
+      {
+        "uuid": "e3c1e32d-0941-4517-aa09-4abe825a0a06",
+        "camera_name": "123",
+        "event_type": "connection",
+        "detected_time": "2021-03-05T15:46:58+00:00",
+        "snapshot": null,
+        "camera_uuid": "b5566d9b-b704-4650-a630-eaac653f51df",
+        "company_uuid": "b3d75b05-97e8-4705-aedd-ac22c41e458d"
+      },
+      {
+        "uuid": "7ec27690-b1d7-4800-b01d-a71b94a1cbd5",
+        "camera_name": "Test camera",
+        "event_type": "connection",
+        "detected_time": "2021-03-05T15:47:24+00:00",
+        "snapshot": null,
+        "camera_uuid": "3fe059af-a200-4825-bf2d-bb1d07c811f1",
+        "company_uuid": "8ee4ca89-2613-4caa-b2d2-4e8c14c81614"
+      },
+      {
+        "uuid": "0adf877e-0e8d-4d6b-ba74-da851636e979",
+        "camera_name": "Эрик",
+        "event_type": "connection",
+        "detected_time": "2021-03-05T15:47:48+00:00",
+        "snapshot": null,
+        "camera_uuid": "919f5692-c9c0-48a5-bf1c-bd115cd28d21",
+        "company_uuid": "967c64cf-8041-4017-aedf-e66fd0c094e0"
+      },
+      {
+        "uuid": "ccf5c2db-85df-4f2c-b0ad-9343f201c1ac",
+        "camera_name": "Приют",
+        "event_type": "connection",
+        "detected_time": "2021-03-05T15:48:15+00:00",
+        "snapshot": null,
+        "camera_uuid": "23ebf465-3805-4fa5-b742-f27fb9753f12",
+        "company_uuid": "ca5ccf1f-3387-4e9c-b316-b8c35f248a47"
+      },
+      {
+        "uuid": "28801aba-b4cd-47f3-bc9f-2f00ed5470bf",
+        "camera_name": "Test",
+        "event_type": "connection",
+        "detected_time": "2021-03-05T15:48:15+00:00",
+        "snapshot": null,
+        "camera_uuid": "a22d5e20-0a3a-4196-83f7-924172d1a7eb",
+        "company_uuid": "b2b02d00-296d-4f0d-a488-bb5c38ee8627"
+      },
+      {
+        "uuid": "28cd5abe-3564-488b-bb8d-be7a48bb9f6d",
+        "camera_name": "Лаборатория 2 камера",
+        "event_type": "connection",
+        "detected_time": "2021-03-05T15:48:17+00:00",
+        "snapshot": null,
+        "camera_uuid": "a54dfbc2-c697-4e5f-a5f8-597e8624ffd1",
+        "company_uuid": "19d63b72-3168-4c34-b7f4-e4b45be595b9"
+      },
+      {
+        "uuid": "91054b67-dc35-42cc-95f2-cf4ae7cac714",
+        "camera_name": "Двор",
+        "event_type": "connection",
+        "detected_time": "2021-03-05T15:48:57+00:00",
+        "snapshot": null,
+        "camera_uuid": "99a5629e-ab31-42e3-95a3-92871a428432",
+        "company_uuid": "e9126eb4-7aac-431a-bdeb-c8268ec95649"
+      },
+      {
+        "uuid": "0c1944ae-5e5f-42c6-9b4c-33eb167ad136",
+        "camera_name": "Лаборатория 3 камера",
+        "event_type": "connection",
+        "detected_time": "2021-03-05T15:49:07+00:00",
+        "snapshot": null,
+        "camera_uuid": "abfdb334-7eba-4453-a5fe-20b83f33dec3",
+        "company_uuid": "19d63b72-3168-4c34-b7f4-e4b45be595b9"
+      },
+      {
+        "uuid": "3a7f585a-c0e8-444e-98cf-6143dd84e441",
+        "camera_name": null,
+        "event_type": "connection",
+        "detected_time": "2021-03-05T15:49:15+00:00",
+        "snapshot": null,
+        "camera_uuid": "53896bd8-5f64-4832-a6bf-6033bfd83692",
+        "company_uuid": "19d63b72-3168-4c34-b7f4-e4b45be595b9"
+      },
+      {
+        "uuid": "d99474c5-1e04-4e18-ac62-e4ff1107ad91",
+        "camera_name": "123 test",
+        "event_type": "connection",
+        "detected_time": "2021-03-05T15:49:19+00:00",
+        "snapshot": null,
+        "camera_uuid": "5c1786cd-8dad-458b-993a-02472889a292",
+        "company_uuid": "bc1c6272-4b3e-443a-a216-7c3cc2e1fedd"
+      },
+      {
+        "uuid": "124e02d9-cbc2-4554-9fe6-6d349cf9accd",
+        "camera_name": "Тещин дом",
+        "event_type": "connection",
+        "detected_time": "2021-03-05T15:49:37+00:00",
+        "snapshot": null,
+        "camera_uuid": "0f679916-a239-43a5-8a17-a729fe6f7f08",
+        "company_uuid": "19d63b72-3168-4c34-b7f4-e4b45be595b9"
+      },
+      {
+        "uuid": "09fdcd25-5fa1-45ab-a44a-fd403fc24af3",
+        "camera_name": "Eric",
+        "event_type": "connection",
+        "detected_time": "2021-03-05T15:49:41+00:00",
+        "snapshot": null,
+        "camera_uuid": "14d06df7-16ab-42c7-b9c5-1aeaca31bf10",
+        "company_uuid": "967c64cf-8041-4017-aedf-e66fd0c094e0"
+      },
+      {
+        "uuid": "8548ae6b-ce6e-4499-a17d-40fe32446be1",
+        "camera_name": "Гости",
+        "event_type": "connection",
+        "detected_time": "2021-03-05T15:50:05+00:00",
+        "snapshot": null,
+        "camera_uuid": "4a6d5dec-a9fb-47dd-85da-9a8f6e182b80",
+        "company_uuid": "19d63b72-3168-4c34-b7f4-e4b45be595b9"
+      },
+      {
+        "uuid": "d4e3061d-99e8-415c-8258-1eec2a5cccbd",
+        "camera_name": "suka",
+        "event_type": "connection",
+        "detected_time": "2021-03-05T15:50:54+00:00",
+        "snapshot": null,
+        "camera_uuid": "0799ff6e-9a66-4c95-8df2-bbc437e51973",
+        "company_uuid": "46556fa1-94bd-4e20-9c65-fb83cdf90ed5"
+      },
+      {
+        "uuid": "edfcd759-5833-4756-b224-d72f5e74eb2d",
+        "camera_name": "Офис",
+        "event_type": "connection",
+        "detected_time": "2021-03-05T15:52:06+00:00",
+        "snapshot": null,
+        "camera_uuid": "fd317648-51cf-442d-9532-1972cf65c411",
+        "company_uuid": "48465e71-df4e-4164-9ee8-143dcfddad9c"
+      },
+      {
+        "uuid": "92f02a22-7dd6-470f-8119-9a19bc83a4bb",
+        "camera_name": "123",
+        "event_type": "connection",
+        "detected_time": "2021-03-05T15:52:25+00:00",
+        "snapshot": null,
+        "camera_uuid": "c2345d6a-4d3a-4711-b6f1-a58cef3f2f28",
+        "company_uuid": "967c64cf-8041-4017-aedf-e66fd0c094e0"
+      },
+      {
+        "uuid": "9fe3c034-15e2-44ab-b122-0272e1907b17",
+        "camera_name": "123",
+        "event_type": "connection",
+        "detected_time": "2021-03-05T15:52:55+00:00",
+        "snapshot": null,
+        "camera_uuid": "b5566d9b-b704-4650-a630-eaac653f51df",
+        "company_uuid": "b3d75b05-97e8-4705-aedd-ac22c41e458d"
+      },
+      {
+        "uuid": "7585e5c7-4849-4be4-ad3f-659125181fe1",
+        "camera_name": "Test camera",
+        "event_type": "connection",
+        "detected_time": "2021-03-05T15:53:15+00:00",
+        "snapshot": null,
+        "camera_uuid": "3fe059af-a200-4825-bf2d-bb1d07c811f1",
+        "company_uuid": "8ee4ca89-2613-4caa-b2d2-4e8c14c81614"
+      },
+      {
+        "uuid": "349e33ff-02a5-42b0-bee5-01e62ef4e2d2",
+        "camera_name": "Эрик",
+        "event_type": "connection",
+        "detected_time": "2021-03-05T15:53:47+00:00",
+        "snapshot": null,
+        "camera_uuid": "919f5692-c9c0-48a5-bf1c-bd115cd28d21",
+        "company_uuid": "967c64cf-8041-4017-aedf-e66fd0c094e0"
+      },
+      {
+        "uuid": "fc13b67b-6633-402b-ac16-e81dd8d0d7d5",
+        "camera_name": "Приют",
+        "event_type": "connection",
+        "detected_time": "2021-03-05T15:54:11+00:00",
+        "snapshot": null,
+        "camera_uuid": "23ebf465-3805-4fa5-b742-f27fb9753f12",
+        "company_uuid": "ca5ccf1f-3387-4e9c-b316-b8c35f248a47"
+      },
+      {
+        "uuid": "7573f5cb-6435-4693-ac40-2df79d9a95d5",
+        "camera_name": "Test",
+        "event_type": "connection",
+        "detected_time": "2021-03-05T15:54:17+00:00",
+        "snapshot": null,
+        "camera_uuid": "a22d5e20-0a3a-4196-83f7-924172d1a7eb",
+        "company_uuid": "b2b02d00-296d-4f0d-a488-bb5c38ee8627"
+      },
+      {
+        "uuid": "bb13666b-f116-4fdc-838c-0392e5cabd12",
+        "camera_name": "Лаборатория 2 камера",
+        "event_type": "connection",
+        "detected_time": "2021-03-05T15:54:17+00:00",
+        "snapshot": null,
+        "camera_uuid": "a54dfbc2-c697-4e5f-a5f8-597e8624ffd1",
+        "company_uuid": "19d63b72-3168-4c34-b7f4-e4b45be595b9"
+      },
+      {
+        "uuid": "ca297b95-20e3-4409-ad13-b8ba1078134f",
+        "camera_name": "Двор",
+        "event_type": "connection",
+        "detected_time": "2021-03-05T15:54:55+00:00",
+        "snapshot": null,
+        "camera_uuid": "99a5629e-ab31-42e3-95a3-92871a428432",
+        "company_uuid": "e9126eb4-7aac-431a-bdeb-c8268ec95649"
+      },
+      {
+        "uuid": "1705a8fb-7d67-42a7-a6eb-68a690a9dfe8",
+        "camera_name": "Лаборатория 3 камера",
+        "event_type": "connection",
+        "detected_time": "2021-03-05T15:55:02+00:00",
+        "snapshot": null,
+        "camera_uuid": "abfdb334-7eba-4453-a5fe-20b83f33dec3",
+        "company_uuid": "19d63b72-3168-4c34-b7f4-e4b45be595b9"
+      },
+      {
+        "uuid": "e9913ea3-7546-49ea-9ded-7d7e771def94",
+        "camera_name": null,
+        "event_type": "connection",
+        "detected_time": "2021-03-05T15:55:10+00:00",
+        "snapshot": null,
+        "camera_uuid": "53896bd8-5f64-4832-a6bf-6033bfd83692",
+        "company_uuid": "19d63b72-3168-4c34-b7f4-e4b45be595b9"
+      },
+      {
+        "uuid": "713927af-31b4-4c6c-b2d7-c34baeab057d",
+        "camera_name": "123 test",
+        "event_type": "connection",
+        "detected_time": "2021-03-05T15:55:14+00:00",
+        "snapshot": null,
+        "camera_uuid": "5c1786cd-8dad-458b-993a-02472889a292",
+        "company_uuid": "bc1c6272-4b3e-443a-a216-7c3cc2e1fedd"
+      },
+      {
+        "uuid": "308724d4-4b2a-44c7-8124-02a30b422df6",
+        "camera_name": "Тещин дом",
+        "event_type": "connection",
+        "detected_time": "2021-03-05T15:55:29+00:00",
+        "snapshot": null,
+        "camera_uuid": "0f679916-a239-43a5-8a17-a729fe6f7f08",
+        "company_uuid": "19d63b72-3168-4c34-b7f4-e4b45be595b9"
+      },
+      {
+        "uuid": "4cde1064-7eb8-4bd8-95b4-4a58821a947d",
+        "camera_name": "Eric",
+        "event_type": "connection",
+        "detected_time": "2021-03-05T15:55:39+00:00",
+        "snapshot": null,
+        "camera_uuid": "14d06df7-16ab-42c7-b9c5-1aeaca31bf10",
+        "company_uuid": "967c64cf-8041-4017-aedf-e66fd0c094e0"
+      },
+      {
+        "uuid": "4d5199d1-e863-45fa-bdc3-c84a8cbf2050",
+        "camera_name": "Гости",
+        "event_type": "connection",
+        "detected_time": "2021-03-05T15:56:03+00:00",
+        "snapshot": null,
+        "camera_uuid": "4a6d5dec-a9fb-47dd-85da-9a8f6e182b80",
+        "company_uuid": "19d63b72-3168-4c34-b7f4-e4b45be595b9"
+      },
+      {
+        "uuid": "50545cff-aed1-4183-b5d8-b7beb91d1382",
+        "camera_name": "suka",
+        "event_type": "connection",
+        "detected_time": "2021-03-05T15:56:54+00:00",
+        "snapshot": null,
+        "camera_uuid": "0799ff6e-9a66-4c95-8df2-bbc437e51973",
+        "company_uuid": "46556fa1-94bd-4e20-9c65-fb83cdf90ed5"
+      },
+      {
+        "uuid": "9263ed02-b0a7-4968-92c8-b271c1f6766c",
+        "camera_name": "Офис",
+        "event_type": "connection",
+        "detected_time": "2021-03-05T15:57:56+00:00",
+        "snapshot": null,
+        "camera_uuid": "fd317648-51cf-442d-9532-1972cf65c411",
+        "company_uuid": "48465e71-df4e-4164-9ee8-143dcfddad9c"
+      },
+      {
+        "uuid": "463f5c84-60ab-48ec-bcf6-90ae15090b6b",
+        "camera_name": "123",
+        "event_type": "connection",
+        "detected_time": "2021-03-05T15:58:17+00:00",
+        "snapshot": null,
+        "camera_uuid": "c2345d6a-4d3a-4711-b6f1-a58cef3f2f28",
+        "company_uuid": "967c64cf-8041-4017-aedf-e66fd0c094e0"
+      },
+      {
+        "uuid": "3a91a819-212b-41c3-9aa6-aeb6df49d5ed",
+        "camera_name": "123",
+        "event_type": "connection",
+        "detected_time": "2021-03-05T15:58:47+00:00",
+        "snapshot": null,
+        "camera_uuid": "b5566d9b-b704-4650-a630-eaac653f51df",
+        "company_uuid": "b3d75b05-97e8-4705-aedd-ac22c41e458d"
+      },
+      {
+        "uuid": "e8cc45db-a826-4b01-977b-9170967d945f",
+        "camera_name": "Test camera",
+        "event_type": "connection",
+        "detected_time": "2021-03-05T15:59:10+00:00",
+        "snapshot": null,
+        "camera_uuid": "3fe059af-a200-4825-bf2d-bb1d07c811f1",
+        "company_uuid": "8ee4ca89-2613-4caa-b2d2-4e8c14c81614"
+      },
+      {
+        "uuid": "6f844598-d29f-4f81-8efa-f2d44d9bdff3",
+        "camera_name": "Эрик",
+        "event_type": "connection",
+        "detected_time": "2021-03-05T15:59:40+00:00",
+        "snapshot": null,
+        "camera_uuid": "919f5692-c9c0-48a5-bf1c-bd115cd28d21",
+        "company_uuid": "967c64cf-8041-4017-aedf-e66fd0c094e0"
+      },
+      {
+        "uuid": "fdadbb2e-fe07-41e4-b661-e6b132e9ce28",
+        "camera_name": "Test",
+        "event_type": "connection",
+        "detected_time": "2021-03-05T16:00:07+00:00",
+        "snapshot": null,
+        "camera_uuid": "a22d5e20-0a3a-4196-83f7-924172d1a7eb",
+        "company_uuid": "b2b02d00-296d-4f0d-a488-bb5c38ee8627"
+      },
+      {
+        "uuid": "d266fe63-de64-4973-9f37-fc361c8a1e0f",
+        "camera_name": "Приют",
+        "event_type": "connection",
+        "detected_time": "2021-03-05T16:00:08+00:00",
+        "snapshot": null,
+        "camera_uuid": "23ebf465-3805-4fa5-b742-f27fb9753f12",
+        "company_uuid": "ca5ccf1f-3387-4e9c-b316-b8c35f248a47"
+      },
+      {
+        "uuid": "9b53ae7d-415c-4fcf-815f-648270953f9f",
+        "camera_name": "Лаборатория 2 камера",
+        "event_type": "connection",
+        "detected_time": "2021-03-05T16:00:17+00:00",
+        "snapshot": null,
+        "camera_uuid": "a54dfbc2-c697-4e5f-a5f8-597e8624ffd1",
+        "company_uuid": "19d63b72-3168-4c34-b7f4-e4b45be595b9"
+      },
+      {
+        "uuid": "aec4be23-75a9-4d9a-bf40-4d77a46f75d2",
+        "camera_name": "Двор",
+        "event_type": "connection",
+        "detected_time": "2021-03-05T16:00:52+00:00",
+        "snapshot": null,
+        "camera_uuid": "99a5629e-ab31-42e3-95a3-92871a428432",
+        "company_uuid": "e9126eb4-7aac-431a-bdeb-c8268ec95649"
+      },
+      {
+        "uuid": "32a63381-ad11-4459-8d62-0b13998161a5",
+        "camera_name": "Лаборатория 3 камера",
+        "event_type": "connection",
+        "detected_time": "2021-03-05T16:00:55+00:00",
+        "snapshot": null,
+        "camera_uuid": "abfdb334-7eba-4453-a5fe-20b83f33dec3",
+        "company_uuid": "19d63b72-3168-4c34-b7f4-e4b45be595b9"
+      },
+      {
+        "uuid": "5154ec2c-35df-4ac2-a29c-6e45d321723d",
+        "camera_name": null,
+        "event_type": "connection",
+        "detected_time": "2021-03-05T16:01:02+00:00",
+        "snapshot": null,
+        "camera_uuid": "53896bd8-5f64-4832-a6bf-6033bfd83692",
+        "company_uuid": "19d63b72-3168-4c34-b7f4-e4b45be595b9"
+      },
+      {
+        "uuid": "2a25f19b-863a-4f81-b162-6e8955fb95c8",
+        "camera_name": "123 test",
+        "event_type": "connection",
+        "detected_time": "2021-03-05T16:01:12+00:00",
+        "snapshot": null,
+        "camera_uuid": "5c1786cd-8dad-458b-993a-02472889a292",
+        "company_uuid": "bc1c6272-4b3e-443a-a216-7c3cc2e1fedd"
+      },
+      {
+        "uuid": "03a63d7c-3e09-4683-be23-92b09be48476",
+        "camera_name": "Тещин дом",
+        "event_type": "connection",
+        "detected_time": "2021-03-05T16:01:22+00:00",
+        "snapshot": null,
+        "camera_uuid": "0f679916-a239-43a5-8a17-a729fe6f7f08",
+        "company_uuid": "19d63b72-3168-4c34-b7f4-e4b45be595b9"
+      },
+      {
+        "uuid": "b4e3f9d0-0e1e-4b22-ac7c-59371d11f881",
+        "camera_name": "Eric",
+        "event_type": "connection",
+        "detected_time": "2021-03-05T16:01:39+00:00",
+        "snapshot": null,
+        "camera_uuid": "14d06df7-16ab-42c7-b9c5-1aeaca31bf10",
+        "company_uuid": "967c64cf-8041-4017-aedf-e66fd0c094e0"
+      },
+      {
+        "uuid": "84c0876b-50c6-4871-ac1c-ac492b4f24eb",
+        "camera_name": "Гости",
+        "event_type": "connection",
+        "detected_time": "2021-03-05T16:01:54+00:00",
+        "snapshot": null,
+        "camera_uuid": "4a6d5dec-a9fb-47dd-85da-9a8f6e182b80",
+        "company_uuid": "19d63b72-3168-4c34-b7f4-e4b45be595b9"
+      },
+      {
+        "uuid": "ad82413e-6b5b-498b-9ff1-53806fed586d",
+        "camera_name": "suka",
+        "event_type": "connection",
+        "detected_time": "2021-03-05T16:02:50+00:00",
+        "snapshot": null,
+        "camera_uuid": "0799ff6e-9a66-4c95-8df2-bbc437e51973",
+        "company_uuid": "46556fa1-94bd-4e20-9c65-fb83cdf90ed5"
+      },
+      {
+        "uuid": "5962bc88-8558-4e91-a3fc-1de0fb955cd3",
+        "camera_name": "Офис",
+        "event_type": "connection",
+        "detected_time": "2021-03-05T16:03:45+00:00",
+        "snapshot": null,
+        "camera_uuid": "fd317648-51cf-442d-9532-1972cf65c411",
+        "company_uuid": "48465e71-df4e-4164-9ee8-143dcfddad9c"
+      },
+      {
+        "uuid": "c0638adf-b992-4746-b911-1a61e5aae401",
+        "camera_name": "123",
+        "event_type": "connection",
+        "detected_time": "2021-03-05T16:04:12+00:00",
+        "snapshot": null,
+        "camera_uuid": "c2345d6a-4d3a-4711-b6f1-a58cef3f2f28",
+        "company_uuid": "967c64cf-8041-4017-aedf-e66fd0c094e0"
+      },
+      {
+        "uuid": "260422d5-712d-4466-8202-d2e16ac267bd",
+        "camera_name": "123",
+        "event_type": "connection",
+        "detected_time": "2021-03-05T16:04:43+00:00",
+        "snapshot": null,
+        "camera_uuid": "b5566d9b-b704-4650-a630-eaac653f51df",
+        "company_uuid": "b3d75b05-97e8-4705-aedd-ac22c41e458d"
+      },
+      {
+        "uuid": "778f8eb7-3db9-4e11-8d52-cfca58328961",
+        "camera_name": "Test camera",
+        "event_type": "connection",
+        "detected_time": "2021-03-05T16:05:13+00:00",
+        "snapshot": null,
+        "camera_uuid": "3fe059af-a200-4825-bf2d-bb1d07c811f1",
+        "company_uuid": "8ee4ca89-2613-4caa-b2d2-4e8c14c81614"
+      },
+      {
+        "uuid": "b5486e62-deab-4e6e-a17f-8900a2c24791",
+        "camera_name": "Эрик",
+        "event_type": "connection",
+        "detected_time": "2021-03-05T16:05:37+00:00",
+        "snapshot": null,
+        "camera_uuid": "919f5692-c9c0-48a5-bf1c-bd115cd28d21",
+        "company_uuid": "967c64cf-8041-4017-aedf-e66fd0c094e0"
+      },
+      {
+        "uuid": "ac71e572-923f-4211-b2c0-8e0406a1a0b1",
+        "camera_name": "Test",
+        "event_type": "connection",
+        "detected_time": "2021-03-05T16:06:02+00:00",
+        "snapshot": null,
+        "camera_uuid": "a22d5e20-0a3a-4196-83f7-924172d1a7eb",
+        "company_uuid": "b2b02d00-296d-4f0d-a488-bb5c38ee8627"
+      },
+      {
+        "uuid": "e7519a2e-8516-4a0e-b047-d5874f6d13b6",
+        "camera_name": "Приют",
+        "event_type": "connection",
+        "detected_time": "2021-03-05T16:06:08+00:00",
+        "snapshot": null,
+        "camera_uuid": "23ebf465-3805-4fa5-b742-f27fb9753f12",
+        "company_uuid": "ca5ccf1f-3387-4e9c-b316-b8c35f248a47"
+      },
+      {
+        "uuid": "1d60e671-b04a-49c0-8f6c-93c088fd1bf2",
+        "camera_name": "Лаборатория 2 камера",
+        "event_type": "connection",
+        "detected_time": "2021-03-05T16:06:20+00:00",
+        "snapshot": null,
+        "camera_uuid": "a54dfbc2-c697-4e5f-a5f8-597e8624ffd1",
+        "company_uuid": "19d63b72-3168-4c34-b7f4-e4b45be595b9"
+      },
+      {
+        "uuid": "d2bf3959-37db-43ed-9aab-8eed05161ce2",
+        "camera_name": "Двор",
+        "event_type": "connection",
+        "detected_time": "2021-03-05T16:06:50+00:00",
+        "snapshot": null,
+        "camera_uuid": "99a5629e-ab31-42e3-95a3-92871a428432",
+        "company_uuid": "e9126eb4-7aac-431a-bdeb-c8268ec95649"
+      },
+      {
+        "uuid": "a14507e6-ff12-48ce-8da4-4187c3088ffb",
+        "camera_name": "Лаборатория 3 камера",
+        "event_type": "connection",
+        "detected_time": "2021-03-05T16:06:50+00:00",
+        "snapshot": null,
+        "camera_uuid": "abfdb334-7eba-4453-a5fe-20b83f33dec3",
+        "company_uuid": "19d63b72-3168-4c34-b7f4-e4b45be595b9"
+      },
+      {
+        "uuid": "d27b4cc1-f041-41fa-8a34-604a2cf91c34",
+        "camera_name": null,
+        "event_type": "connection",
+        "detected_time": "2021-03-05T16:06:59+00:00",
+        "snapshot": null,
+        "camera_uuid": "53896bd8-5f64-4832-a6bf-6033bfd83692",
+        "company_uuid": "19d63b72-3168-4c34-b7f4-e4b45be595b9"
+      },
+      {
+        "uuid": "0ee7e002-cf35-4506-8cb7-0de5ec523e77",
+        "camera_name": "123 test",
+        "event_type": "connection",
+        "detected_time": "2021-03-05T16:07:09+00:00",
+        "snapshot": null,
+        "camera_uuid": "5c1786cd-8dad-458b-993a-02472889a292",
+        "company_uuid": "bc1c6272-4b3e-443a-a216-7c3cc2e1fedd"
+      },
+      {
+        "uuid": "bc7eb06d-dcfe-4029-88d2-26aed1c22be5",
+        "camera_name": "Тещин дом",
+        "event_type": "connection",
+        "detected_time": "2021-03-05T16:07:19+00:00",
+        "snapshot": null,
+        "camera_uuid": "0f679916-a239-43a5-8a17-a729fe6f7f08",
+        "company_uuid": "19d63b72-3168-4c34-b7f4-e4b45be595b9"
+      },
+      {
+        "uuid": "85b7b5bf-fbc0-4ff1-8849-ae31e0f148b5",
+        "camera_name": "Eric",
+        "event_type": "connection",
+        "detected_time": "2021-03-05T16:07:29+00:00",
+        "snapshot": null,
+        "camera_uuid": "14d06df7-16ab-42c7-b9c5-1aeaca31bf10",
+        "company_uuid": "967c64cf-8041-4017-aedf-e66fd0c094e0"
+      },
+      {
+        "uuid": "acbd0928-ffc6-42d8-b2d0-30834caf61ed",
+        "camera_name": "Гости",
+        "event_type": "connection",
+        "detected_time": "2021-03-05T16:07:53+00:00",
+        "snapshot": null,
+        "camera_uuid": "4a6d5dec-a9fb-47dd-85da-9a8f6e182b80",
+        "company_uuid": "19d63b72-3168-4c34-b7f4-e4b45be595b9"
+      },
+      {
+        "uuid": "5f53ea1c-5c5b-4e00-be44-7ccc8b6d03ea",
+        "camera_name": "suka",
+        "event_type": "connection",
+        "detected_time": "2021-03-05T16:08:43+00:00",
+        "snapshot": null,
+        "camera_uuid": "0799ff6e-9a66-4c95-8df2-bbc437e51973",
+        "company_uuid": "46556fa1-94bd-4e20-9c65-fb83cdf90ed5"
+      },
+      {
+        "uuid": "52ff3d26-9881-437a-96d7-ffe14ec2df26",
+        "camera_name": "Офис",
+        "event_type": "connection",
+        "detected_time": "2021-03-05T16:09:38+00:00",
+        "snapshot": null,
+        "camera_uuid": "fd317648-51cf-442d-9532-1972cf65c411",
+        "company_uuid": "48465e71-df4e-4164-9ee8-143dcfddad9c"
+      },
+      {
+        "uuid": "7cdbd67a-d3d4-4c3d-bda2-db450a4c7214",
+        "camera_name": "123",
+        "event_type": "connection",
+        "detected_time": "2021-03-05T16:10:08+00:00",
+        "snapshot": null,
+        "camera_uuid": "c2345d6a-4d3a-4711-b6f1-a58cef3f2f28",
+        "company_uuid": "967c64cf-8041-4017-aedf-e66fd0c094e0"
+      },
+      {
+        "uuid": "d1774f67-2b6f-45b5-969e-0b94d5b4a4e7",
+        "camera_name": "123",
+        "event_type": "connection",
+        "detected_time": "2021-03-05T16:10:39+00:00",
+        "snapshot": null,
+        "camera_uuid": "b5566d9b-b704-4650-a630-eaac653f51df",
+        "company_uuid": "b3d75b05-97e8-4705-aedd-ac22c41e458d"
+      },
+      {
+        "uuid": "239eed7a-79b1-468c-87e3-3971bf92fd10",
+        "camera_name": "Test camera",
+        "event_type": "connection",
+        "detected_time": "2021-03-05T16:11:12+00:00",
+        "snapshot": null,
+        "camera_uuid": "3fe059af-a200-4825-bf2d-bb1d07c811f1",
+        "company_uuid": "8ee4ca89-2613-4caa-b2d2-4e8c14c81614"
+      },
+      {
+        "uuid": "6521c978-6dbd-4a65-86b9-159750896f07",
+        "camera_name": "Эрик",
+        "event_type": "connection",
+        "detected_time": "2021-03-05T16:11:37+00:00",
+        "snapshot": null,
+        "camera_uuid": "919f5692-c9c0-48a5-bf1c-bd115cd28d21",
+        "company_uuid": "967c64cf-8041-4017-aedf-e66fd0c094e0"
+      },
+      {
+        "uuid": "9adde944-3fc4-4c20-a09e-be8ee5938106",
+        "camera_name": "Test",
+        "event_type": "connection",
+        "detected_time": "2021-03-05T16:12:02+00:00",
+        "snapshot": null,
+        "camera_uuid": "a22d5e20-0a3a-4196-83f7-924172d1a7eb",
+        "company_uuid": "b2b02d00-296d-4f0d-a488-bb5c38ee8627"
+      },
+      {
+        "uuid": "c9a4dea2-5875-4305-9c72-0af1009a2eac",
+        "camera_name": "Приют",
+        "event_type": "connection",
+        "detected_time": "2021-03-05T16:12:06+00:00",
+        "snapshot": null,
+        "camera_uuid": "23ebf465-3805-4fa5-b742-f27fb9753f12",
+        "company_uuid": "ca5ccf1f-3387-4e9c-b316-b8c35f248a47"
+      },
+      {
+        "uuid": "6fdd64d3-772e-4dea-a9ab-ea4a7c32d3a2",
+        "camera_name": "Лаборатория 2 камера",
+        "event_type": "connection",
+        "detected_time": "2021-03-05T16:12:16+00:00",
+        "snapshot": null,
+        "camera_uuid": "a54dfbc2-c697-4e5f-a5f8-597e8624ffd1",
+        "company_uuid": "19d63b72-3168-4c34-b7f4-e4b45be595b9"
+      },
+      {
+        "uuid": "4476832b-aed4-4941-ab60-53e62c0488a7",
+        "camera_name": "Лаборатория 3 камера",
+        "event_type": "connection",
+        "detected_time": "2021-03-05T16:12:46+00:00",
+        "snapshot": null,
+        "camera_uuid": "abfdb334-7eba-4453-a5fe-20b83f33dec3",
+        "company_uuid": "19d63b72-3168-4c34-b7f4-e4b45be595b9"
+      },
+      {
+        "uuid": "2086fa62-bc7c-49b8-bf36-1da29f782872",
+        "camera_name": "Двор",
+        "event_type": "connection",
+        "detected_time": "2021-03-05T16:12:49+00:00",
+        "snapshot": null,
+        "camera_uuid": "99a5629e-ab31-42e3-95a3-92871a428432",
+        "company_uuid": "e9126eb4-7aac-431a-bdeb-c8268ec95649"
+      },
+      {
+        "uuid": "d1dcba57-5a94-4f05-a395-316fa4583934",
+        "camera_name": null,
+        "event_type": "connection",
+        "detected_time": "2021-03-05T16:12:58+00:00",
+        "snapshot": null,
+        "camera_uuid": "53896bd8-5f64-4832-a6bf-6033bfd83692",
+        "company_uuid": "19d63b72-3168-4c34-b7f4-e4b45be595b9"
+      },
+      {
+        "uuid": "cc11cafb-59ec-42d5-be34-76fa54cc5de4",
+        "camera_name": "123 test",
+        "event_type": "connection",
+        "detected_time": "2021-03-05T16:13:06+00:00",
+        "snapshot": null,
+        "camera_uuid": "5c1786cd-8dad-458b-993a-02472889a292",
+        "company_uuid": "bc1c6272-4b3e-443a-a216-7c3cc2e1fedd"
+      },
+      {
+        "uuid": "5c0dfa17-2230-4592-913e-05721eac9c0f",
+        "camera_name": "Тещин дом",
+        "event_type": "connection",
+        "detected_time": "2021-03-05T16:13:09+00:00",
+        "snapshot": null,
+        "camera_uuid": "0f679916-a239-43a5-8a17-a729fe6f7f08",
+        "company_uuid": "19d63b72-3168-4c34-b7f4-e4b45be595b9"
+      },
+      {
+        "uuid": "cdd296cc-b384-45dd-91fe-ebfc2b6687e0",
+        "camera_name": "Eric",
+        "event_type": "connection",
+        "detected_time": "2021-03-05T16:13:25+00:00",
+        "snapshot": null,
+        "camera_uuid": "14d06df7-16ab-42c7-b9c5-1aeaca31bf10",
+        "company_uuid": "967c64cf-8041-4017-aedf-e66fd0c094e0"
+      },
+      {
+        "uuid": "80449143-242f-49a7-8bb5-65af553821e3",
+        "camera_name": "Гости",
+        "event_type": "connection",
+        "detected_time": "2021-03-05T16:13:51+00:00",
+        "snapshot": null,
+        "camera_uuid": "4a6d5dec-a9fb-47dd-85da-9a8f6e182b80",
+        "company_uuid": "19d63b72-3168-4c34-b7f4-e4b45be595b9"
+      },
+      {
+        "uuid": "33a518bb-b5ae-460b-9b0a-dea5f4c18c14",
+        "camera_name": "suka",
+        "event_type": "connection",
+        "detected_time": "2021-03-05T16:14:44+00:00",
+        "snapshot": null,
+        "camera_uuid": "0799ff6e-9a66-4c95-8df2-bbc437e51973",
+        "company_uuid": "46556fa1-94bd-4e20-9c65-fb83cdf90ed5"
+      },
+      {
+        "uuid": "73c05c64-e28e-4515-a2e1-b9edba04c268",
+        "camera_name": "Офис",
+        "event_type": "connection",
+        "detected_time": "2021-03-05T16:15:32+00:00",
+        "snapshot": null,
+        "camera_uuid": "fd317648-51cf-442d-9532-1972cf65c411",
+        "company_uuid": "48465e71-df4e-4164-9ee8-143dcfddad9c"
+      },
+      {
+        "uuid": "2ed5f601-1bb5-4b69-92aa-bd575b4e88ec",
+        "camera_name": "123",
+        "event_type": "connection",
+        "detected_time": "2021-03-05T16:15:59+00:00",
+        "snapshot": null,
+        "camera_uuid": "c2345d6a-4d3a-4711-b6f1-a58cef3f2f28",
+        "company_uuid": "967c64cf-8041-4017-aedf-e66fd0c094e0"
+      },
+      {
+        "uuid": "4baf295c-541c-4f75-a839-d718f79e1960",
+        "camera_name": "123",
+        "event_type": "connection",
+        "detected_time": "2021-03-05T16:16:36+00:00",
+        "snapshot": null,
+        "camera_uuid": "b5566d9b-b704-4650-a630-eaac653f51df",
+        "company_uuid": "b3d75b05-97e8-4705-aedd-ac22c41e458d"
+      },
+      {
+        "uuid": "541828ba-eb6e-48e0-9563-e56ea18c3fcd",
+        "camera_name": "Test camera",
+        "event_type": "connection",
+        "detected_time": "2021-03-05T16:17:13+00:00",
+        "snapshot": null,
+        "camera_uuid": "3fe059af-a200-4825-bf2d-bb1d07c811f1",
+        "company_uuid": "8ee4ca89-2613-4caa-b2d2-4e8c14c81614"
+      },
+      {
+        "uuid": "5b632260-7c2f-48b6-9a30-6efbed5858a4",
+        "camera_name": "Эрик",
+        "event_type": "connection",
+        "detected_time": "2021-03-05T16:17:27+00:00",
+        "snapshot": null,
+        "camera_uuid": "919f5692-c9c0-48a5-bf1c-bd115cd28d21",
+        "company_uuid": "967c64cf-8041-4017-aedf-e66fd0c094e0"
+      },
+      {
+        "uuid": "4584bb1c-8996-4e63-88ff-9683d70c8a03",
+        "camera_name": "Test",
+        "event_type": "connection",
+        "detected_time": "2021-03-05T16:17:57+00:00",
+        "snapshot": null,
+        "camera_uuid": "a22d5e20-0a3a-4196-83f7-924172d1a7eb",
+        "company_uuid": "b2b02d00-296d-4f0d-a488-bb5c38ee8627"
+      }
+    ]
+  },
+  {
+    "event_type": "drop_frame",
+    "from": 1616062263,
+    "duration": 0,
+    "events": [
+      {
+        "uuid": "c65f5e49-8a5b-460d-99a4-1fca466faf3a",
+        "camera_name": "Площадка перед домом",
+        "event_type": "drop_frame",
+        "detected_time": "2021-03-05T15:45:53+00:00",
+        "snapshot": null,
+        "camera_uuid": "b72b47dc-e252-497c-b79c-d3725ee6d97c",
+        "company_uuid": "d4002a0d-e59a-42da-9c5c-dc8617d39a5b"
+      }
+    ]
+  }
+]
