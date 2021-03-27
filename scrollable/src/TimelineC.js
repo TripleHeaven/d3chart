@@ -48,7 +48,9 @@ export default function TimelineC() {
   const wrapperRef = useRef()
   const dimensions = useResizeObserver(wrapperRef)
   const [currentZoomState, setCurrentZoomState] = useState()
+  const [bars, setBars] = useState()
   const [widthTick, setWidthTick] = useState()
+  const [countTick, setCountTick] = useState()
   useEffect(() => {
     const svg = select(svgRef.current)
     if (!dimensions) return
@@ -78,10 +80,11 @@ export default function TimelineC() {
       .select('.x-axis')
       .style('transform', `translateY(${dimensions.height / 2}px)`)
       .call(xAxis)
+
     const zoomBehaviour = zoom()
       .scaleExtent([0.5, 5])
       .translateExtent([
-        [0, 0.8],
+        [0, 1],
         [dimensions.width, dimensions.height],
       ])
       .on('zoom', () => {
@@ -90,26 +93,49 @@ export default function TimelineC() {
       })
     svg.call(zoomBehaviour)
 
-    /* Rects 
-    try to connect it to ticks!!!
-    */
-    // svg.selectAll('rect').remove()
-    // svg
-    //   .selectAll('.nechet')
-    //   .remove()
-    //   .data(dataT)
-    //   .join('rect')
-    //   .attr('class', '.nechet')
-    //   .attr('fill', (datatick, index) => (index % 2 === 0 ? 'black' : 'gray'))
-    //   .attr('x', (datatick, index) => index * widthTick)
-    //   .attr('y', 0)
-    //   .attr('width', widthTick)
-    //   .attr('height', 100)
-  }, [currentZoomState, dimensions])
+    let tickArr = xScale.ticks()
+    let tickDistance =
+      xScale(tickArr[tickArr.length - 1]) - xScale(tickArr[tickArr.length - 2])
+    // data of all x coordinates
+    let tickXcoords = tickArr.map((item) => xScale(item))
+    console.log('tick X coords', tickXcoords)
+    setCountTick(tickArr.length)
+    const barsT = tickArr.map((d, i) => (
+      <rect
+        className="barTick"
+        key={d}
+        width={tickDistance}
+        height={1000}
+        x={tickXcoords[i]}
+        y={0}
+        fill={i % 2 === 0 ? 'black' : 'rgba(100, 100, 100, 0.0)'}
+        rx="0"
+        ry="0"
+      />
+    ))
+    // barsT.push(
+    //   <rect
+    //     className="barTick"
+    //     key={'Test'}
+    //     width={tickDistance}
+    //     height={100}
+    //     x={0}
+    //     y={0}
+    //     fill={barsT.length % 2 === 0 ? 'gray' : 'black'}
+    //     rx="0"
+    //     ry="0"
+    //   />
+    // )
+    setBars(barsT)
+    console.log('RERENDER')
+
+    // data ticks map
+  }, [currentZoomState, dimensions, widthTick])
   return (
     <div ref={wrapperRef} className="tlcont">
       <svg ref={svgRef}>
         <g className="x-axis"></g>
+        {bars}
       </svg>
     </div>
   )

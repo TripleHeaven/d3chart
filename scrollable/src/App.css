@@ -1,14 +1,16 @@
 svg {
-  background: #eee;
+  background: gray;
   /* margin-left: auto;
   margin-right: auto;
   margin-top: 20px; */
   width: 100%;
+  height: 100%;
 }
 .container {
   display: flex;
 }
 
 .tlcont {
-  width: 50%;
+  width: 90%;
+  height: 500px;
 }

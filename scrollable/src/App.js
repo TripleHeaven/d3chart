@@ -20,7 +20,7 @@ function App() {
   return (
     <>
       <div className="container">
-        <TimelineC width={900} height={250}></TimelineC>
+        <TimelineC></TimelineC>
       </div>
     </>
   )
