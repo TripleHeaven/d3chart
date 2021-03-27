@@ -19,7 +19,9 @@ function App() {
   }, [data])
   return (
     <>
-      <TimelineC width={400} height={200}></TimelineC>
+      <div className="container">
+        <TimelineC width={900} height={250}></TimelineC>
+      </div>
     </>
   )
 }
