@@ -108,7 +108,7 @@ export default function TimelineC() {
         height={1000}
         x={tickXcoords[i]}
         y={0}
-        fill={i % 2 === 0 ? 'black' : 'rgba(100, 100, 100, 0.0)'}
+        fill={i % 2 === 0 ? '#161D23' : 'rgba(100, 100, 100, 0.0)'}
         rx="0"
         ry="0"
       />
