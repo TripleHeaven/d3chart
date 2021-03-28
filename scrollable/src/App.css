@@ -10,6 +10,16 @@ svg {
   display: flex;
 }
 
+.tick {
+  color: wheat;
+  z-index: 100;
+}
+.tick line {
+  visibility: hidden;
+}
+.domain {
+  color: wheat;
+}
 .tlcont {
   width: 90%;
   height: 500px;

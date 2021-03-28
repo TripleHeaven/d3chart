@@ -66,21 +66,6 @@ export default function TimelineC() {
     }
     const xAxis = axisBottom(xScale)
 
-    svg
-      .selectAll('.timetick')
-      .data(data)
-      .join('line')
-      .attr('class', 'timetick')
-      .attr('stroke', 'black')
-      .attr('x1', (datatick) => xScale(new Date(datatick)))
-      .attr('y1', dimensions.height)
-      .attr('x2', (datatick) => xScale(new Date(datatick)))
-      .attr('y2', 0)
-    svg
-      .select('.x-axis')
-      .style('transform', `translateY(${dimensions.height / 2}px)`)
-      .call(xAxis)
-
     const zoomBehaviour = zoom()
       .scaleExtent([0.5, 5])
       .translateExtent([
@@ -100,6 +85,22 @@ export default function TimelineC() {
     let tickXcoords = tickArr.map((item) => xScale(item))
     console.log('tick X coords', tickXcoords)
     setCountTick(tickArr.length)
+
+    svg
+      .selectAll('.timetick')
+      .data(data)
+      .join('line')
+      .attr('class', 'timetick')
+      .attr('stroke', 'black')
+      .attr('x1', (datatick) => xScale(new Date(datatick)))
+      .attr('y1', dimensions.height)
+      .attr('x2', (datatick) => xScale(new Date(datatick)))
+      .attr('y2', 0)
+    svg
+      .select('.x-axis')
+      .style('transform', `translateY(${dimensions.height / 2}px)`)
+      .call(xAxis)
+
     const barsT = tickArr.map((d, i) => (
       <rect
         className="barTick"
@@ -134,8 +135,8 @@ export default function TimelineC() {
   return (
     <div ref={wrapperRef} className="tlcont">
       <svg ref={svgRef}>
-        <g className="x-axis"></g>
         {bars}
+        <g className="x-axis"></g>
       </svg>
     </div>
   )
