@@ -9,6 +9,7 @@ import {
   zoom,
   zoomTransform,
   schemeBrBG,
+  ticks,
 } from 'd3'
 
 // resize observer hook
@@ -49,8 +50,10 @@ export default function TimelineC() {
   const dimensions = useResizeObserver(wrapperRef)
   const [currentZoomState, setCurrentZoomState] = useState()
   const [bars, setBars] = useState()
+  const [textTicks, setTextTicks] = useState()
   const [widthTick, setWidthTick] = useState()
   const [countTick, setCountTick] = useState()
+
   useEffect(() => {
     const svg = select(svgRef.current)
     if (!dimensions) return
@@ -59,7 +62,7 @@ export default function TimelineC() {
     // xScale
     const xScale = scaleTime()
       .domain([minDate, maxDate])
-      .range([0, dimensions.width])
+      .range([0, dimensions.width + 200])
     if (currentZoomState) {
       const newXScale = currentZoomState.rescaleX(xScale)
       xScale.domain(newXScale.domain())
@@ -85,7 +88,6 @@ export default function TimelineC() {
       xScale(tickArr[tickArr.length - 1]) - xScale(tickArr[tickArr.length - 2])
     // data of all x coordinates
     let tickXcoords = tickArr.map((item) => xScale(item))
-    console.log('tick X coords', tickXcoords)
     setCountTick(tickArr.length)
 
     // data ticks
@@ -99,10 +101,24 @@ export default function TimelineC() {
       .attr('y1', dimensions.height)
       .attr('x2', (datatick) => xScale(new Date(datatick)))
       .attr('y2', 0)
+    // let ticks = tickArr.map((d, i) => (
+    //   <text className="textTicks" key={d + i} x={50} y={50} fill="white">
+    //     {tickArr[i]}
+    //   </text>
+    // ))
+    setTextTicks(ticks)
     svg
       .select('.x-axis')
-      .style('transform', `translateY(${dimensions.height / 2}px)`)
+      // .style('transform', `translateX(${-tickDistance}px)`)
       .call(xAxis)
+      // .style('transform', `translateX(${-tickDistance / 2}px)`)
+      // .style('transform', `translateY(${dimensions.height / 2}px)`)
+      .style(
+        'transform',
+        `translate( ${-tickDistance / 2}px, ${dimensions.height / 2}px)`
+      )
+
+    // svg.selectAll('.x-axis .tick').style('transform', `translateX(${0}px)`)
 
     const barsT = tickArr.map((d, i) => (
       <rect
@@ -131,7 +147,6 @@ export default function TimelineC() {
     //   />
     // )
     setBars(barsT)
-    console.log('RERENDER')
 
     // data ticks map
   }, [currentZoomState, dimensions, widthTick])
@@ -139,6 +154,7 @@ export default function TimelineC() {
     <div ref={wrapperRef} className="tlcont">
       <svg ref={svgRef}>
         {bars}
+        {/* {textTicks} */}
         <g className="x-axis"></g>
       </svg>
     </div>
