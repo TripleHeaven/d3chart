@@ -56,6 +56,7 @@ export default function TimelineC() {
     if (!dimensions) return
     const minDate = min(dataT)
     const maxDate = max(dataT)
+    // xScale
     const xScale = scaleTime()
       .domain([minDate, maxDate])
       .range([0, dimensions.width])
@@ -65,6 +66,7 @@ export default function TimelineC() {
       setWidthTick(xScale(new Date(dataT[1])) - xScale(new Date(dataT[0])))
     }
     const xAxis = axisBottom(xScale)
+    xAxis.tickSizeOuter(0)
 
     const zoomBehaviour = zoom()
       .scaleExtent([0.5, 5])
@@ -86,6 +88,7 @@ export default function TimelineC() {
     console.log('tick X coords', tickXcoords)
     setCountTick(tickArr.length)
 
+    // data ticks
     svg
       .selectAll('.timetick')
       .data(data)
